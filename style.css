@@ -1,0 +1,39 @@
+body {
+    background-color:white;
+}
+
+header {
+    display: flex;
+    float: right;
+    padding: 9px;
+    height: 6px;
+    gap: 15px;
+
+}
+.icon {
+    width: 2.5px;
+    height: 1px;
+    background-color: black;
+    margin: 2px;
+    align-items: center;
+    cursor: pointer;
+    transform-origin: 0px 0px;
+    font-size: 20px;
+    border-bottom: 5px;
+
+}
+.button {
+    background-color:#1a73e8;
+    color:white;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    width: 96px;
+    border-radius: 6px;
+    box-sizing: border-box;   
+     height: 35px;
+}
