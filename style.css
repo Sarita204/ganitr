@@ -37,3 +37,7 @@ header {
     box-sizing: border-box;   
      height: 35px;
 }
+.logo {
+   align-items: center;
+   padding: 22px 425px;
+}
