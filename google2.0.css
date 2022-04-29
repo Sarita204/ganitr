@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    float: right;
+    padding: 5px;
+    gap: 8px;
+    margin: 2px 3px; 
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ci {
+    height: 4px;
+    width: 4px;
+    background:#5f6368;
+    margin: 1px;
+    border-radius: 4px;
+    
+    
+    
+  }
+
+  .sign {
+      background-color: #1a73e8;
+      color: white;
+      border-radius: 4px;
+      padding: 9px 25px;
+      margin-left: 8px;
+  }
+
+  .logo {
+      width: 420px;
+      height: 149x;
+      margin-left: 393px;
+      padding: 23px 32px;
+  }
+  .box {
+}
+.box {
+    display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+  }
+.search {
+        display: flex;
+        align-items: center;
+        padding-right: 13px;
+        margin-top: -5px;
+}
+.icon {
+    margin: auto;
+}
+.Mbox {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.mic {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
