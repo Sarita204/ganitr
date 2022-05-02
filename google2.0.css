@@ -17,10 +17,7 @@ header {
     width: 4px;
     background: #5f6368;
     margin: 1px;
-    border-radius: 4px;
-
-
-
+   border-radius: 4px;
 }
 
 .sign {
@@ -33,54 +30,71 @@ header {
 
 .logo {
     width: 420px;
-    height: 149x;
-    margin-left: 393px;
-    padding: 20px 32px;
+    height: 140px;
+    margin-left: 395px;
+    padding: 22px 30px;
 }
 
 .box {
     display: flex;
+    z-index:3;
     height: 44px;
     background: #fff;
     border: 1px solid #dfe1e5;
+    box-shadow: none;
     border-radius: 24px;
-    margin: 0 auto;
-    width: 638px;
+    margin: 1px auto;
     width: auto;
     max-width: 584px;
 }
 
 .search {
+    flex-wrap: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: flex;
+   padding: 5px 8px 0px 14px;
+}
+
+
+.icon {
     display: flex;
     align-items: center;
     padding-right: 13px;
     margin-top: -5px;
-}
-
-.icon {
-    margin-top: 5px;
-}
-
+    }
 .Mbox {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
+        margin: auto;
+    }
+
+.QCzoEc {
+    margin-top: 3px;
+    color: #9aa0a6;
 }
 
-.gmic  {
-        flex: 100%;
-        white-space: pre;
-        height: 34px;
-        font-size: 16px;
-    }
-    .mac {
-        display: flex;
-        flex: 0 0 auto;
-        margin-top: -5px;
-        align-items: stretch;
-        flex-direction: row;
-    }
-    .ACRAdd {
-        border-left: 1px solid #dadce0;
-        height: 65%;
+.z1asCe {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.gmic {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+.mic {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+.ubox {
+        height: 70px;
     }
