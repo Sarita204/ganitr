@@ -36,10 +36,10 @@ header {
 }
 
 .logo {
-    width: 420px;
-    height: 139.5px;
+    width: 420.5px;
+    height: 139px;
     margin-left: 395.5px;
-    padding: 22px 29px;
+    padding: 22.5px 29px;
 }
 
 .box {
@@ -52,7 +52,7 @@ header {
     border-radius: 24px;
     margin: 1px auto;
     width: auto;
-    max-width: 584px;
+    max-width: 582px;
     padding: 1px auto;
 }
 
@@ -61,20 +61,19 @@ header {
     flex-shrink: 1;
     flex-basis: 0%;
     display: flex;
-    padding: 5px 8px 0px 14px;
+    padding: 4.5px 8px 0px 14px;
 }
 
 .icon {
     display: flex;
     align-items: center;
-    padding-right: 13px;
-    margin-top: 5px;
+    padding-right: 8px;
+    margin-top: 4px;
     }
 
 .Mbox {
         margin-top: 4px;
         font-size: 9px;
-
         
     }
 
@@ -97,9 +96,9 @@ header {
     flex: 100%;
     white-space: pre;
     height: 32px;
-    font-size: 9px;
-    margin-left: 302px;
-    margin-top: 5px;
+    font-size: 8.7px;
+    margin-left: 306px;
+    margin-top: 6px;
 }
 .mic {
     display: flex;
@@ -110,86 +109,84 @@ header {
    
 }
 
-
-input[type="submit" i] {
-    align-items: flex-start;
-    cursor: default;
+.msg1 {
+    padding: 2px 15px 2px 17px;
     box-sizing: border-box;
+    border: 1px solid #f8f9fa;
     background-color:#f8f9fa;
     color: #3c4043;
-    padding: 10px 2px;
-    border-width: 0px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
-    border-radius: 6px;
-    margin: 20px 21px 0px 10px;
-    font-family: arial,sans-serif;
-    font-size: 14px;
+    line-height: 30px;
+    height: 36px;
     min-width: 54px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
 }
+.msg2 {
+    padding: 2px 15px 2px 17px;
+    border: 1px solid #f6f9fa;
+    background-color:#f8f9fa;
+    color: #3c4043;
+    line-height: 30px;
+    height: 37px;
+    min-width: 55px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
 
 .lang {
     color: #3c4043;
     display: inline-block;
     line-height: 28px;
+    width: 660px;
     text-align: center;
-    margin-left: 356px;
+    margin: 3px 0px 0px 284px;
+    font-family: arial,sans-serif;
     font-size: 14px;
     padding: 20px 3px;
+    margin-bottom: 20px;
     }
+
     a {
         color: #1a0dab;
         text-decoration: none;
-        text-decoration: underline;
-        margin-left: 5px;
-        width:auto;
+    
     }
 
-    .foot {
-    background: #f2f2f2;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    padding:15px 25px;
-    border-bottom:1px solid #dadce0;
-    font-size:15px;
-    color:#70757a;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    justify-content:space-evenly;
-    display:block;
-    white-space:nowrap;
-    margin-top: 85px;
-    }
-
-    .foot1 {
+    .footer {
+        margin-top: 103px;
         background: #f2f2f2;
-        flex-shrink: 0;
         box-sizing: border-box;
-        padding:11px 2px;
-        border-bottom:1px solid #dadce0;
         font-size:15px;
         color:#70757a;
         display:flex;
         flex-wrap:wrap;
-    
+        display:block;
+        white-space:nowrap;
+    }
+
+    .foot1 {
+        background: #f2f2f2;
+        box-sizing: border-box; 
+        border-bottom:1px solid #dadce0;
+        font-size:15px;
+        font-family: arial,sans-serif;
+        color:#70757a;
+        display:flex;
+        flex-wrap:wrap;
+        padding: 15px 22px;
+
     }
 
     .foot2 {
         display:flex;
         background: #f2f2f2;
-        padding:13px 0px;
         font-size:15px;
         color:#70757a;
-        
+        margin-top: 18px;
+        padding: 1px 15px 1px 19px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
     }
-
-    .foot3 {
-        display: flex;
-        float: right;
-        font-size: 15px;
-        padding: 0px 3px;
-        text-align: center;
-    }
-    
